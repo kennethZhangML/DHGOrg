@@ -51,7 +51,7 @@ public:
 int main() {
     const std::string BASE_URL = "https://api.github.com/repos/plurigrid/ontology";
     httplib::Headers HEADERS = {
-        {"Authorization", "token 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"},
+        {"Authorization", "token ..."},
         {"Accept", "application/vnd.github.v3+json"}
     };
 

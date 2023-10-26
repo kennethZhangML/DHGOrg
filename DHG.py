@@ -73,7 +73,7 @@ class DHGConstructor:
                                 
 if __name__ == "__main__":
     BASE_URL = "https://api.github.com/repos/plurigrid/ontology/"
-    TOKEN = "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"
+    TOKEN = "your-api-token"
     HEADERS = {
         "Authorization": f"token {TOKEN}",
         "Accept": "application/vnd.github.v3+json",
