@@ -46,6 +46,10 @@ if __name__ == "__main__":
             issue_dhg.add_node(issue_id, title = title, body = body, 
                                created_at = created_at, closed_at = closed_at)
     
+    adjacency_matrix = nx.adjacency_matrix(issue_dhg)
+    print("Adjacency Matrix:")
+    print(adjacency_matrix.toarray())
+    
     visualize_graph(issue_dhg)
 
 
